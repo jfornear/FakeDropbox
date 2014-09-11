@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C43F8ED19C156DC007165D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F8EC19C156DC007165D5 /* AppDelegate.swift */; };
+		8C43F8EF19C156DD007165D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F8EE19C156DD007165D5 /* ViewController.swift */; };
+		8C43F8F219C156DD007165D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C43F8F019C156DD007165D5 /* Main.storyboard */; };
+		8C43F8F419C156DD007165D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C43F8F319C156DD007165D5 /* Images.xcassets */; };
+		8C43F90019C156DD007165D5 /* FakeDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F8FF19C156DD007165D5 /* FakeDropboxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C43F8FA19C156DD007165D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C43F8DF19C156DC007165D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C43F8E619C156DC007165D5;
+			remoteInfo = FakeDropbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C43F8E719C156DC007165D5 /* FakeDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43F8EB19C156DC007165D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C43F8EC19C156DC007165D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C43F8EE19C156DD007165D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C43F8F119C156DD007165D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C43F8F319C156DD007165D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C43F8F919C156DD007165D5 /* FakeDropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeDropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43F8FE19C156DD007165D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C43F8FF19C156DD007165D5 /* FakeDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDropboxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C43F8E419C156DC007165D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43F8F619C156DD007165D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C43F8DE19C156DC007165D5 = {
+			isa = PBXGroup;
+			children = (
+				8C43F8E919C156DC007165D5 /* FakeDropbox */,
+				8C43F8FC19C156DD007165D5 /* FakeDropboxTests */,
+				8C43F8E819C156DC007165D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C43F8E819C156DC007165D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C43F8E719C156DC007165D5 /* FakeDropbox.app */,
+				8C43F8F919C156DD007165D5 /* FakeDropboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C43F8E919C156DC007165D5 /* FakeDropbox */ = {
+			isa = PBXGroup;
+			children = (
+				8C43F8EC19C156DC007165D5 /* AppDelegate.swift */,
+				8C43F8EE19C156DD007165D5 /* ViewController.swift */,
+				8C43F8F019C156DD007165D5 /* Main.storyboard */,
+				8C43F8F319C156DD007165D5 /* Images.xcassets */,
+				8C43F8EA19C156DC007165D5 /* Supporting Files */,
+			);
+			path = FakeDropbox;
+			sourceTree = "<group>";
+		};
+		8C43F8EA19C156DC007165D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C43F8EB19C156DC007165D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C43F8FC19C156DD007165D5 /* FakeDropboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C43F8FF19C156DD007165D5 /* FakeDropboxTests.swift */,
+				8C43F8FD19C156DD007165D5 /* Supporting Files */,
+			);
+			path = FakeDropboxTests;
+			sourceTree = "<group>";
+		};
+		8C43F8FD19C156DD007165D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C43F8FE19C156DD007165D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C43F8E619C156DC007165D5 /* FakeDropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C43F90319C156DD007165D5 /* Build configuration list for PBXNativeTarget "FakeDropbox" */;
+			buildPhases = (
+				8C43F8E319C156DC007165D5 /* Sources */,
+				8C43F8E419C156DC007165D5 /* Frameworks */,
+				8C43F8E519C156DC007165D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeDropbox;
+			productName = FakeDropbox;
+			productReference = 8C43F8E719C156DC007165D5 /* FakeDropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C43F8F819C156DD007165D5 /* FakeDropboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C43F90619C156DD007165D5 /* Build configuration list for PBXNativeTarget "FakeDropboxTests" */;
+			buildPhases = (
+				8C43F8F519C156DD007165D5 /* Sources */,
+				8C43F8F619C156DD007165D5 /* Frameworks */,
+				8C43F8F719C156DD007165D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C43F8FB19C156DD007165D5 /* PBXTargetDependency */,
+			);
+			name = FakeDropboxTests;
+			productName = FakeDropboxTests;
+			productReference = 8C43F8F919C156DD007165D5 /* FakeDropboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C43F8DF19C156DC007165D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jesse Fornear";
+				TargetAttributes = {
+					8C43F8E619C156DC007165D5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8C43F8F819C156DD007165D5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8C43F8E619C156DC007165D5;
+					};
+				};
+			};
+			buildConfigurationList = 8C43F8E219C156DC007165D5 /* Build configuration list for PBXProject "FakeDropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C43F8DE19C156DC007165D5;
+			productRefGroup = 8C43F8E819C156DC007165D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C43F8E619C156DC007165D5 /* FakeDropbox */,
+				8C43F8F819C156DD007165D5 /* FakeDropboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C43F8E519C156DC007165D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43F8F219C156DD007165D5 /* Main.storyboard in Resources */,
+				8C43F8F419C156DD007165D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43F8F719C156DD007165D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C43F8E319C156DC007165D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43F8EF19C156DD007165D5 /* ViewController.swift in Sources */,
+				8C43F8ED19C156DC007165D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C43F8F519C156DD007165D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C43F90019C156DD007165D5 /* FakeDropboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C43F8FB19C156DD007165D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C43F8E619C156DC007165D5 /* FakeDropbox */;
+			targetProxy = 8C43F8FA19C156DD007165D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C43F8F019C156DD007165D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C43F8F119C156DD007165D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C43F90119C156DD007165D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C43F90219C156DD007165D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C43F90419C156DD007165D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FakeDropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C43F90519C156DD007165D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FakeDropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C43F90719C156DD007165D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FakeDropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeDropbox.app/FakeDropbox";
+			};
+			name = Debug;
+		};
+		8C43F90819C156DD007165D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FakeDropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeDropbox.app/FakeDropbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C43F8E219C156DC007165D5 /* Build configuration list for PBXProject "FakeDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43F90119C156DD007165D5 /* Debug */,
+				8C43F90219C156DD007165D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C43F90319C156DD007165D5 /* Build configuration list for PBXNativeTarget "FakeDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43F90419C156DD007165D5 /* Debug */,
+				8C43F90519C156DD007165D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C43F90619C156DD007165D5 /* Build configuration list for PBXNativeTarget "FakeDropboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C43F90719C156DD007165D5 /* Debug */,
+				8C43F90819C156DD007165D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C43F8DF19C156DC007165D5 /* Project object */;
+}
