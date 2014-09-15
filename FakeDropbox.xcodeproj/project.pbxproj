@@ -12,6 +12,13 @@
 		8C43F8F219C156DD007165D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C43F8F019C156DD007165D5 /* Main.storyboard */; };
 		8C43F8F419C156DD007165D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C43F8F319C156DD007165D5 /* Images.xcassets */; };
 		8C43F90019C156DD007165D5 /* FakeDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F8FF19C156DD007165D5 /* FakeDropboxTests.swift */; };
+		8C43F90A19C68A57007165D5 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F90919C68A57007165D5 /* CreateAccountRootViewController.swift */; };
+		8C43F90C19C69432007165D5 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F90B19C69432007165D5 /* SignInRootViewController.swift */; };
+		8C43F90E19C69827007165D5 /* SignIn1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F90D19C69827007165D5 /* SignIn1ViewController.swift */; };
+		8C43F91019C69839007165D5 /* CreateAccount1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F90F19C69839007165D5 /* CreateAccount1ViewController.swift */; };
+		8C43F91219C6A45B007165D5 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F91119C6A45B007165D5 /* TermsViewController.swift */; };
+		8C43F91419C6AE62007165D5 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F91319C6AE62007165D5 /* ForgotPasswordViewController.swift */; };
+		8C43F91819C6B260007165D5 /* Settings1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C43F91719C6B260007165D5 /* Settings1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 		8C43F8F919C156DD007165D5 /* FakeDropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeDropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C43F8FE19C156DD007165D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C43F8FF19C156DD007165D5 /* FakeDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDropboxTests.swift; sourceTree = "<group>"; };
+		8C43F90919C68A57007165D5 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		8C43F90B19C69432007165D5 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		8C43F90D19C69827007165D5 /* SignIn1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn1ViewController.swift; sourceTree = "<group>"; };
+		8C43F90F19C69839007165D5 /* CreateAccount1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount1ViewController.swift; sourceTree = "<group>"; };
+		8C43F91119C6A45B007165D5 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		8C43F91319C6AE62007165D5 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8C43F91719C6B260007165D5 /* Settings1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,13 @@
 				8C43F8F019C156DD007165D5 /* Main.storyboard */,
 				8C43F8F319C156DD007165D5 /* Images.xcassets */,
 				8C43F8EA19C156DC007165D5 /* Supporting Files */,
+				8C43F90919C68A57007165D5 /* CreateAccountRootViewController.swift */,
+				8C43F90B19C69432007165D5 /* SignInRootViewController.swift */,
+				8C43F90D19C69827007165D5 /* SignIn1ViewController.swift */,
+				8C43F90F19C69839007165D5 /* CreateAccount1ViewController.swift */,
+				8C43F91119C6A45B007165D5 /* TermsViewController.swift */,
+				8C43F91319C6AE62007165D5 /* ForgotPasswordViewController.swift */,
+				8C43F91719C6B260007165D5 /* Settings1ViewController.swift */,
 			);
 			path = FakeDropbox;
 			sourceTree = "<group>";
@@ -208,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C43F91419C6AE62007165D5 /* ForgotPasswordViewController.swift in Sources */,
+				8C43F91819C6B260007165D5 /* Settings1ViewController.swift in Sources */,
+				8C43F91019C69839007165D5 /* CreateAccount1ViewController.swift in Sources */,
+				8C43F90C19C69432007165D5 /* SignInRootViewController.swift in Sources */,
+				8C43F90A19C68A57007165D5 /* CreateAccountRootViewController.swift in Sources */,
 				8C43F8EF19C156DD007165D5 /* ViewController.swift in Sources */,
 				8C43F8ED19C156DC007165D5 /* AppDelegate.swift in Sources */,
+				8C43F90E19C69827007165D5 /* SignIn1ViewController.swift in Sources */,
+				8C43F91219C6A45B007165D5 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
