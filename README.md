@@ -13,8 +13,6 @@ Completed project requirements:
  * [x] Required: User can follow the sign in flow
 
 
-Walkthrough of all user stories:
-
-![Video Walkthrough](FakeDropbox.gif)
+![Gif](FakeDropbox.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
