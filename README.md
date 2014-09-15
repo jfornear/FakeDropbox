@@ -1,6 +1,5 @@
 FakeDropbox
 ===========
-# Week 1 Project: Dropbox
 
 This is an iOS prototype of the Dropbox app's basic signed out and signed in state. See the [Week 1 Project: Dropbox](http://courses.codepath.com/courses/ios_for_designers/week/1) assignment.
 
